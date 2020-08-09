@@ -1,0 +1,98 @@
+body {
+    /* background-color: yellow; */
+}
+
+.content {
+    width: 100%;
+}
+
+.icon {
+    display: block;
+}
+
+.nav {
+    display: none;
+}
+
+.overlay {
+    display: block;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(224, 222, 222);
+    background-color: rgba(240, 223, 223, 0.938);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay a{
+    font-size: 0.3em;
+    padding: 15px 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(122, 113, 113, 0.212);
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #242424;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:not(:nth-child(2)):hover{
+    background-color: rgba(110, 139, 236, 0.103);
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 20px;
+}
+
+.header span {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.social-media {
+    position: sticky;
+    top: 100%;
+    margin: 10px;
+}
+
+.social-media img {
+    padding: 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.card-img{
+    width: 70%;
+    margin: auto;
+}
+
+.card button{
+    font-size: 1.2em;
+}
+
+.card p{
+    font-size: 1em
+}
